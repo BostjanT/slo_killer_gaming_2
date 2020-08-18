@@ -60,6 +60,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -102,7 +103,7 @@ button:focus {
 .image-title {
   font-size: 3.25em;
   line-height: 1.7em;
-  margin: 5em auto;
+  margin-top: 3em;
 }
 strong {
   color: var(--pageViolet);
